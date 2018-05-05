@@ -6,115 +6,202 @@
     <meta name="keywords" content="Auto eléctrico económico, auto electrico, auto cero emision, motor electrico, auto barato electrico" />
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="3 month">
-    <title>eMIN | Movilidad Inteligente para el transporte urbano</title>
+    <title>Auto Eléctrico en Uruguay | eMIN Uruguay</title>
     <meta name="author" content="pineapple-lab">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300|Oswald:400,700,300|Open+Sans:400,700,600,500,300" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Web Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300|Oswald:400,700,300|Open+Sans:400,700,600,500,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--build:css css/allstyles.min.css-->
-    <link rel="stylesheet" href="css/allstyles.min.css">
-    <link href="css/index.css" rel="stylesheet" />
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" />
+    <!--build:css css/allstylesemin.min.css-->
+    <link href="css/emin-auto.css" rel="stylesheet" />
+    <link href="css/emin-auto-media.css" rel="stylesheet" />
     <!--endbuild-->
-    <link href="css/allstylesK1.min.css" rel="stylesheet" />
 </head>
-<body id="home" class="enim-k1">
+<body id="home">
     <div class="loader">
         <div class="spinner spinner-double-bounce">
             <div class="double-bounce1"></div>
             <div class="double-bounce2"></div>
         </div>
     </div>
-    <nav class="navbar navbar-default">
+
+    <!-- header -->
+    <div class="enim-k1">
+        <nav class="navbar navbar-default">
+            <div class="container menu-mobile">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-list"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/header_logo.png" alt="Logo" />
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="/">INICIO</a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" href="#" class="autos">AUTOS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">URBAN</a></li>
+                                <li><a href="">EV2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://loopbikes.uy/k1.html">UTILITARIOS</a></li>
+                        <li><a href="http://loopbikes.uy/chopper.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="main-header">
+        <img src="images/homepage.png" alt="Emin" />
+    </section>
+    <section class="emin-benefits">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <i class="fa fa-list"></i>
-                </button>
-                <!--<a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>-->
+            <div class="col-xs-12 item">
+                <div class="col-md-2">
+                    <img src="images/iconEmin1.png" alt="Emin Benefit" />
+                </div>
+                <div class="col-md-10">
+                    <h3>CERO EMISIÓN CO2</h3>
+                    <p>
+                        Los vehículos eléctricos no emiten gases, ofreciendo una solución en movilidad limpia, reduciendo la toxicidad provocada por el transporte a combustión. <br />
+                        La emisión de gases de efecto invernadero correspondiente al transporte alcanza un 40% del total, y es una de la principales fuentes de emisión responsables del calentamiento global en la actualidad.
+                    </p>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="/">INICIO</a></li>
-                    <li><a href="emin.html">AUTOS</a></li>
-                    <li><a href="http://loopbikes.uy/k1.html">K1</a></li>
-                    <li><a href="http://loopbikes.uy/chopper.html">CHOPPER</a></li>
-                    <li><a href="http://loopbikes.uy/s1.html">S1</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
-                </ul>
+            <div class="col-xs-12 item">
+                <div class="col-md-2">
+                    <img src="images/iconEmin2.png" alt="Emin Benefit" />
+                </div>
+                <div class="col-md-10">
+                    <h3>IMPACTO SONORO</h3>
+                    <p>
+                        El ruido ambiental en las ciudades es causada principalmente por la circulación de vehículos.<br />
+                        Los componentes de baja frecuencia del motor a combustión van desde los 30Hz a los 100Hz, correspondiente a los 3000rpm.<br />
+                        Esta es la frecuencia que entra con mayor facilidad en los domicilios que dan a la calle. El propulsor eléctrico carece de vibraciones y tiene un funcionamiento equilibrado. Solamente radian ruido los neumáticos a velocidades superiores a 50km/hr., velocidad promedio en tramos urbanos.
+                    </p>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div>
-        <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <a href="/emin.html"><img src="images/homepage.jpg" alt="Emin" style="width: 100%"></a>
+            <div class="col-xs-12 item">
+                <div class="col-md-2">
+                    <img src="images/iconEmin3.png" alt="Emin Benefit" />
+                </div>
+                <div class="col-md-10">
+                    <h3>RENDIMIENTO SUPERIOR</h3>
+                    <p>
+                        El aprovechamiento de la energía para movilidad es infinitamente superior en un automóvil eléctrico.<br />
+                        El rendimiento de generación + transporte + distribución es 2,5 veces superior a un vehículo Diesel y 3,5 superior al Otto
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 item">
+                <div class="col-md-2">
+                    <img src="images/iconEmin4.png" alt="Emin Benefit" />
+                </div>
+                <div class="col-md-10">
+                    <h3>ECONOMÍA</h3>
+                    <p>
+                        El vehículo eléctrico permite ahorrar hasta un 80% en relación a un vehículo a combustión.<br />
+                        Esto incluye mantenimiento, gasto en energía, costo de patente y seguro.<br />
+                        Tomando una base de 100KMS Diarios, un citycar eléctrico compacto para 5 pasajeros ofrece un retorno de la inversión promedio de USD5.000 ANUALES, y una menor tasa de depreciación de la unidad en relación a su par a combustión debido a la mayor resistencia de su sistema motor y el costo inferior de reposición de un sistema motor eléctrico con el tiempo.
+                    </p>
                 </div>
             </div>
         </div>
-    </div><aside id="identiz_widget_carousel-3" class="widget widget-carousel">
-        <div class="swiper-carousel-container">
-            <div class="row">
-                <article class="col-xs-12 col-sm-4"><div class="inner invert"><a href="/emin.html" class="post-thumbnail__link"><img class="post-thumbnail__img" src="images/0001.jpg" alt="Emin"></a><div class="content-wrapper"><div class="entry-header"><h5 class="entry-title"><a href="/emin.html" title="Emin">Autos Eléctricos</a></h5></div><div class="entry-meta"><span class="posted-by">eMIN es la primer marca uruguaya de Movilidad Eléctrica.</span></div><div class="entry-content"></div><footer class="entry-footer"></footer></div></div></article><article class="col-xs-12 col-sm-4">
-                    <div class="inner invert">
-                        <a href="http://loopbikes.uy/" class="post-thumbnail__link"><img src="images/0003.jpg" alt="Loop Bicicleta"></a>
-                        <div class="content-wrapper">
-                            <div class="entry-header">
-                                <h5 class="entry-title"><a href="http://loopbikes.uy/k1.html" title="Why Sports is Not for Everyone">Electric Bikes</a></h5>
-                            </div>
-                            <div class="entry-meta">
-                                <span class="posted-by">Bicicletas Eléctricas Plegables.<br class="hide-lg">Movilidad urbana inteligente.</span>
-                            </div>
-                            <div class="entry-content"></div><footer class="entry-footer"></footer>
+    </section>
+    <section class="emin-backup text-center">
+        <div class="container">
+            <div class="col-md-4">
+                <img src="images/iconEmin7.png" />
+                <h3>Respaldo</h3>
+                <p>
+                    Loop Bikes es una marca de eMIN Uruguay,
+                    representada por Ruffino Group. <br />
+                    Conocé nuestra gama de automóviles, scooters
+                    y bicicletas eléctricas  para una movilidad urbana
+                    ecológica y sustentable.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/iconEmin6.png" />
+                <h3>Garantía</h3>
+                <p>
+                    Trabajamos con productos
+                    garantizados de fábrica y un Depto. de Repuestos
+                    acorde al volúmen de unidades comercializadas.
+                    Solicitá tu pieza o accesorio en nuestra Casa Central.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/iconEmin5.png" />
+                <h3>Servicio Técnico</h3>
+                <p>
+                    Consultá  a nuestro servicio post-venta
+                    capacitado en movilidad eléctrica.
+                    Nuestros técnicos son una respuesta calificada
+                    en el mantenimiento
+                    y reparación de las marcas que representamos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="enim-k1">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="contact-location">
+                            <div id="map" class="jx-map jx-map-fullwidth"></div>
                         </div>
                     </div>
-                </article><article class="col-xs-12 col-sm-4"><div class="inner invert"><a href="http://loopbikes.uy/s1.html" class="post-thumbnail__link"><img src="images/0002.jpg" alt="Chopper"></a><div class="content-wrapper"><div class="entry-header"><h5 class="entry-title"><a href="/chopper.html" title="Traffic Was Terrible Today">Electric Chopper</a></h5></div><div class="entry-meta"><span class="posted-by">Scooter en formato monopatín.<br class="hide-lg">Transporte recreativo.</span></div><div class="entry-content"></div><footer class="entry-footer"></footer></div></div></article>
-            </div>
-        </div>
-    </aside><div role="main" class="main no-top-padding">
-        <div><div class="container"><div class="sixteen columns"><div class="jx-section-title-3"><h4 style="margin-top: 60px; font-size: 25px">NUESTRA MARCA</h4></div></div><div class="sixteen columns"><p>Bienvenido a eMIN, un proyecto de movilidad inteligente para el transporte urbano.Conocé nuestra gama de modelos 100% Eléctricos, entre ellos Automóviles, Scooters, Bicicletas, Monopatines y más. Representada por Ruffino Group, nuestra casa central en Montevideo ofrece servicios de Venta, Depto. de Repuestos, Showroom, Service Post-Venta y capacitaciones en movilidad eléctrica para talleres de nuestra red en todo el país.</p></div></div><hr></div><div><div class="container"><div class="sixteen columns"><div class="jx-section-title-3"><h4 style="margin-top: 60px">Prensa</h4></div></div><div class="sixteen columns"><p>EMIN destacado en el Salón Latinoamericano de Vehículos Eléctricos (Infobae). <a class="link" href="http://www.infobae.com/autos/2016/10/07/salon-latinoamericano-de-vehiculos-electricos-en-ba-los-seis-mejores-exponentes/" style="color: #f26367">leer más <i class="fa fa-angle-right" aria-hidden="true"></i></a></p></div><div class="sixteen columns"><p>Destacan la creciente presencia de vehículos eléctricos en el país (Télam) <a class="link" href="http://www.telam.com.ar/notas/201610/166093-vehiculos-electricos-argentina.html" style="color: #f26367">leer más <i class="fa fa-angle-right" aria-hidden="true"></i></a></p></div><div class="sixteen columns"><p>El transporte eléctrico se acerca cada vez más al consumidor (El Observador UY) <a class="link" href="http://www.elobservador.com.uy/como-el-transporte-electrico-se-acerca-cada-vez-mas-al-consumidor-n988192" style="color: #f26367">leer más <i class="fa fa-angle-right" aria-hidden="true"></i></a></p></div><div class="sixteen columns"><p>El Proyecto de eMIN en Movilidad Eléctrica (DNegocios.UY) <a class="link" href="http://www.dnegocios.uy/articulo/1260/emin-quiere-colocar-100-utilitarios-electricos-en-2017" style="color: #f26367">leer más <i class="fa fa-angle-right" aria-hidden="true"></i></a></p></div><div class="sixteen columns"><p>El panorama de la industria automotriz eléctrica en la primera feria MUEVE (En Perspectiva 770am) <a class="link" href="http://www.enperspectiva.net/en-perspectiva-radio/entrevistas/energias-renovablesel-panorama-de-la-industria-automotriz-electrica-en-la-primera-feria-mueve/" style="color: #f26367">leer más <i class="fa fa-angle-right" aria-hidden="true"></i></a></p></div></div><hr></div><div id="contacto" class="jx-container jx-white-bg">
-            <div class="container">
-                <div class="sixteen columns">
-                    <div class="jx-section-title-3">
-                        <h4 style="margin-top: 60px">CONTACTO</h4>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="contact-form" id="form-link">
+                            <form>
+                                <h3>CONTACTO</h3>
+                                <input type="text" class="form-control" placeholder="Nombre">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <input type="text" class="form-control" placeholder="Telefono">
+                                <textarea class="form-control" placeholder="Escriba su mensaje aquí..." rows="5"></textarea>
+                                <input type="submit" class="btn btn-default" value="ENVIAR MENSAJE">
+                            </form>
+                        </div>
                     </div>
-                </div><div class="row"></div>
-                <div class="ten columns">
-                    <div class="jx-contact-form">
-                        <form id="contacto">
-                            <div class="row-1">
-                                <div class="contact-first-name" style="width: 49% !important">
-                                    <input type="text" name="userName" id="userName" placeholder="Nombre" class="jx-form-text">
-                                </div>
-                                <div class="contact-email" style="width: 49% !important">
-                                    <input type="text" name="userEmail" id="userEmail" placeholder="Email" class="jx-form-text"><br>
-                                </div>
-                            </div><div class="row-1"><div class="contact-email"><input type="text" name="tel" id="tel" placeholder="Teléfono" class="jx-form-text"><br></div></div><div class="row-1">
-                                <div class="contact-message">
-                                    <textarea name="userMessage" id="userMessage" class="jx-form-textarea" rows="5" cols="30" placeholder="Escriba su mensaje aquí..."></textarea>
-                                </div>
-                                <div class="contact-submit">
-                                    <input type="submit" id="submit" name="submit" class="jx-submit" value="ENVIAR MENSAJE" style="width: 100%;padding: 17px;font-size: 16px;color: #f26367!important;border: 1px solid #f26367!important;background: #fff!important;border-radius: 3px!important;letter-spacing: 3px;">
-                                </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fa fa-map-marker"></i>
+                                <span>
+                                    <h4>DIRECCION</h4>
+                                    <h5>CERRO LARGO 879 ESQ ANDES</h5>
+                                </span>
                             </div>
-                        </form><div id="resp" style="width: 100%;padding: 17px;font-size: 16px;color: #FDF500"></div>
+                            <div class="contact-item">
+                                <i class="fa fa-mobile"></i>
+                                <span>
+                                    <h4>TELEFONO</h4>
+                                    <h5>(+598) 2908 4230</h5>
+                                </span>
+                            </div>
+                            <div class="contact-item">
+                                <a href="http://www.facebook.com/loopbikesuy"><i class="fa fa-facebook"></i></a>
+                                <a href="http://www.instagram.com/loopbikes_uy"><i class="fa fa-instagram"></i></a>
+                                <span>
+                                    <h4>NOVEDADES</h4>
+                                    <h5>SIGUE TODAS NUESTRAS NOTICIAS</h5>
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                </div><div class="four columns"><div class="jx-contact-info"><ul><li><div class="icon"><i class="line-icon icon-location" style="color:#f26367!important"></i></div><div class="item-position"><div class="title" style="color: #222">Dirección</div><div class="discription"><span style="color:#f26367!important">Cerro Largo 879 esq Andes.</span></div></div></li><li><div class="icon"><i class="line-icon icon-mobile" style="color:#f26367!important"></i></div><div class="item-position"><div class="title" style="color: #222">Teléfono</div><div class="discription"><div style="color:#f26367!important">(+598) 2908 4230</div></div></div></li><li><div class="icon"><a href="https://es-la.facebook.com/eMINAutoElectricoUruguay/"><i class="fa fa-facebook" style="color:#f26367!important"></i></a><a href="https://www.instagram.com/eminautoelectrico/"><i class="fa fa-instagram" style="color:#f26367!important"></i></a></div><div class="item-position"><div class="title" style="color: #222">Novedades</div><div class="discription"><div style="color:#f26367!important">Sigue todas nuestras noticias</div></div></div></li></ul></div></div>
-            </div><hr>
-        </div><div class="container">
-            <div class="sixteen columns">
-                <div class="jx-section-title-3">
-                    <h4 style="margin-top: 60px">Mapa</h4>
                 </div>
             </div>
-            <div class="sixteen columns">
-                <div class="jx-google-map">
-                    <div id="map" class="jx-map jx-map-fullwidth"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </footer>
+    </section>
+
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -129,12 +216,17 @@
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-76284036-1', 'auto');
-        ga('send', 'pageview');</script>
-    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
-    <!--build:js js/mainJs.min.js-->
-    <script src="js/mainJs.min.js"></script>
+        ga('send', 'pageview');
+
+    </script>
+    <!--build:js js/mainJsEmin.min.js-->
+    <script src="js/mainJsEmin.min.js"></script>
+    <script src="js/gmapInitMap.js"></script>
+    <script src="js/main.js"></script>
+
     <!--endbuild-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyC6uEj3apjaAxAnzv9GBVzR7EJLoBTnEPI&callback=initMap"></script>
+
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -143,21 +235,8 @@
             } else {
                 x.className = "topnav";
             }
-        }</script>
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            }; if (!f._fbq) f._fbq = n;
-            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-        }(window,
-            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '114314712542797'); // Insert your pixel ID here.
-        fbq('track', 'PageView');</script>
-    <noscript>
-        <img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=114314712542797&ev=PageView&noscript=1">
-    </noscript>
+        }
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
