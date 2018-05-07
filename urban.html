@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="fonts/font-awesome.min.css" rel="stylesheet" />
     <!--build:css css/allstylesemin.min.css-->
+    <link href="css/animate.css" rel="stylesheet" />
     <link href="css/emin-auto.css" rel="stylesheet" />
     <link href="css/emin-auto-media.css" rel="stylesheet" />
     <!--endbuild-->
@@ -41,16 +42,16 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="/">INICIO</a></li>
-                        <li class="dropdown">
+                        <li class="wow fadeInRight" data-wow-delay="0s"><a href="/index.html">INICIO</a></li>
+                        <li class="dropdown wow fadeInRight display" data-wow-delay="0.1s">
                             <a data-toggle="dropdown" href="#" class="autos">AUTOS</a>
                             <ul class="dropdown-menu">
-                                <li><a href="">URBAN</a></li>
-                                <li><a href="">EV2</a></li>
+                                <li class="wow fadeInDown active"><a href="/urban.html">URBAN</a></li>
+                                <li class="wow fadeInDown"><a href="/ev2.html">EV2</a></li>
                             </ul>
                         </li>
-                        <li><a href="http://loopbikes.uy/k1.html">UTILITARIOS</a></li>
-                        <li><a href="http://loopbikes.uy/chopper.html">CONTACTO</a></li>
+                        <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="/ev5.html">UTILITARIOS</a></li>
+                        <li class="wow fadeInRight" data-wow-delay="0.3s"><a href="/index.html#contacto">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,8 +62,8 @@
             <div class="headerText">
                 <h1>URBAN</h1>
                 <h2>REDEFINE TU <br />MOVILIDAD</h2>
-            </div> 
-        </div>  
+            </div>
+        </div>
     </section>
     <section class="urban-stats">
         <div class="container">
@@ -80,7 +81,7 @@
             </div>
         </div>
     </section>
-    <section class="urbanSpecs">
+    <section class="urbanSpecs urban">
         <div class="container">
             <div class="col-xs-5">
                 <h2>FICHA TECNICA</h2>
@@ -155,8 +156,7 @@
                 <h3>MANTENIMIENTO</h3>
                 <p>
                     <span>¿Cada cuánto se realiza un mantenimiento del vehículo y en qué consta?</span><br />
-                    Cada 5000kms. se realizara un chequeo general del sistema y motor eléctrico, kit de baterías, carrocería, sistema de frenos, amortiguación, y demás controles mecánicos convencionales.<br />
-                    <span>¿Qué costo tiene y donde se realiza?</span><br />
+                    Cada 5000kms. se realizara un chequeo general del sistema y motor eléctrico, kit de baterías, carrocería, sistema de frenos, amortiguación, y demás controles mecánicos convencionales.                    <span>¿Qué costo tiene y donde se realiza?</span><br />
                     Se realiza en los Servicios Oficiales eMin y tiene un costo aproximado de $1200-$2500 dependiendo el kilometraje.
                 </p>
                 <img src="images/urbanGeneral4.png" />
@@ -189,7 +189,7 @@
                 <div class="col-xs-12 text-center">
                     <h1>Calculador de ahorro</h1>
                 </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-12 col-lg-6">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="form-group imprtntBlk">
@@ -241,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-12 col-lg-6">
                     <label>
                         <span><b id="kmsxdia"></b></span>Kilómetros recorridos por día
                     </label>
@@ -253,7 +253,7 @@
                 </div>
             </div>
             <div class="row comparativo">
-                <div class="col-xs-12 col-md-6 blockNceDv">
+                <div class="col-xs-12 col-md-12 col-lg-6 blockNceDv">
                     <h1>Emin -<span id="kmAnualesem"></span> km anuales</h1>
                     <div class="row">
                         <div class="col-xs-12 col-md-4">
@@ -334,7 +334,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-offset-1 col-md-5 blockNceDv">
+                <div class="col-xs-12 col-lg-offset-1 col-md-12 col-lg-5 blockNceDv">
                     <h1>Auto a nafta -<span id="kmAnualesnf"></span> km anuales</h1>
                     <div class="form-group">
                         <label for="rendimientoNaftaXlt">Rendimiento por litro</label>
@@ -412,8 +412,8 @@
                                 </span>
                             </div>
                             <div class="contact-item">
-                                <a href="http://www.facebook.com/loopbikesuy"><i class="fa fa-facebook"></i></a>
-                                <a href="http://www.instagram.com/loopbikes_uy"><i class="fa fa-instagram"></i></a>
+                                <a href="https://es-la.facebook.com/eMINAutoElectricoUruguay/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/eminautoelectrico/"><i class="fa fa-instagram"></i></a>
                                 <span>
                                     <h4>NOVEDADES</h4>
                                     <h5>SIGUE TODAS NUESTRAS NOTICIAS</h5>
@@ -449,6 +449,7 @@
 
     </script>
     <!--build:js js/mainJsEmin.min.js-->
+    <script src="js/wow.js"></script>
     <script src="js/mainJsEmin.min.js"></script>
     <script src="js/gmapInitMap.js"></script>
     <script src="js/main.js"></script>

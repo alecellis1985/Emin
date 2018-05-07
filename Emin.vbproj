@@ -6046,9 +6046,17 @@
     <Content Include="css\theme.css" />
     <Content Include="ev5.html" />
     <Content Include="images\ev2Header.png" />
+    <Content Include="images\ev2HeaderMobile.png" />
     <Content Include="images\ev2Item.png" />
     <Content Include="images\ev2Specs.png" />
+    <Content Include="images\ev5bkg.png" />
     <Content Include="images\ev5Hader.png" />
+    <Content Include="images\ev5HaderMobile.png" />
+    <Content Include="images\ev5Mobile.png" />
+    <Content Include="images\ev5Mobile2.png" />
+    <Content Include="images\ev5Profile1.png" />
+    <Content Include="images\ev5Profile2.png" />
+    <Content Include="images\ev5Profile3.png" />
     <Content Include="images\urban.png" />
     <Content Include="images\urbanGeneralbkg.png" />
     <Content Include="images\urbanGeneral1.png" />
@@ -6062,6 +6070,8 @@
     <Content Include="images\urbanSpec3.png" />
     <Content Include="images\urbanSpec4.png" />
     <Content Include="ev2.html" />
+    <Content Include="images\urbanspec4Mobile.png" />
+    <Content Include="js\wow.js" />
     <Content Include="urban.html" />
     <Content Include="fonts\font-awesome.css" />
     <Content Include="fonts\font-awesome.min.css" />

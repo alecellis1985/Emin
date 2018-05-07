@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="fonts/font-awesome.min.css" rel="stylesheet" />
     <!--build:css css/allstylesemin.min.css-->
+    <link href="css/animate.css" rel="stylesheet" />
     <link href="css/emin-auto.css" rel="stylesheet" />
     <link href="css/emin-auto-media.css" rel="stylesheet" />
     <!--endbuild-->
@@ -41,31 +42,32 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="/">INICIO</a></li>
-                        <li class="dropdown">
+                        <li class="active wow fadeInRight" data-wow-delay="0s"><a href="#">INICIO</a></li>
+                        <li class="dropdown wow fadeInRight" data-wow-delay="0.1s">
                             <a data-toggle="dropdown" href="#" class="autos">AUTOS</a>
                             <ul class="dropdown-menu">
-                                <li><a href="">URBAN</a></li>
-                                <li><a href="">EV2</a></li>
+                                <li class="wow fadeInDown"><a href="/urban.html">URBAN</a></li>
+                                <li class="wow fadeInDown"><a href="/ev2.html">EV2</a></li>
                             </ul>
                         </li>
-                        <li><a href="http://loopbikes.uy/k1.html">UTILITARIOS</a></li>
-                        <li><a href="http://loopbikes.uy/chopper.html">CONTACTO</a></li>
+                        <li class="wow fadeInRight" data-wow-delay="0.2s"><a href="/ev5.html">UTILITARIOS</a></li>
+                        <li class="wow fadeInRight" data-wow-delay="0.3s"><a href="index.html#contacto">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
     <section class="main-header">
-        <img src="images/homepage.png" alt="Emin" />
+        <img class="hidden-sm hidden-xs"  src="images/homepage.png" alt="Emin" />
+        <img class="hidden-lg hidden-md" src="images/homepageMobile.png" alt="Emin" />
     </section>
     <section class="emin-benefits">
         <div class="container">
             <div class="col-xs-12 item">
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <img src="images/iconEmin1.png" alt="Emin Benefit" />
                 </div>
-                <div class="col-md-10">
+                <div class="col-sm-10">
                     <h3>CERO EMISIÓN CO2</h3>
                     <p>
                         Los vehículos eléctricos no emiten gases, ofreciendo una solución en movilidad limpia, reduciendo la toxicidad provocada por el transporte a combustión. <br />
@@ -74,10 +76,10 @@
                 </div>
             </div>
             <div class="col-xs-12 item">
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <img src="images/iconEmin2.png" alt="Emin Benefit" />
                 </div>
-                <div class="col-md-10">
+                <div class="col-sm-10">
                     <h3>IMPACTO SONORO</h3>
                     <p>
                         El ruido ambiental en las ciudades es causada principalmente por la circulación de vehículos.<br />
@@ -87,10 +89,10 @@
                 </div>
             </div>
             <div class="col-xs-12 item">
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <img src="images/iconEmin3.png" alt="Emin Benefit" />
                 </div>
-                <div class="col-md-10">
+                <div class="col-sm-10">
                     <h3>RENDIMIENTO SUPERIOR</h3>
                     <p>
                         El aprovechamiento de la energía para movilidad es infinitamente superior en un automóvil eléctrico.<br />
@@ -99,10 +101,10 @@
                 </div>
             </div>
             <div class="col-xs-12 item">
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <img src="images/iconEmin4.png" alt="Emin Benefit" />
                 </div>
-                <div class="col-md-10">
+                <div class="col-sm-10">
                     <h3>ECONOMÍA</h3>
                     <p>
                         El vehículo eléctrico permite ahorrar hasta un 80% en relación a un vehículo a combustión.<br />
@@ -115,7 +117,7 @@
     </section>
     <section class="emin-backup text-center">
         <div class="container">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInDown" data-wow-delay="-0.5s">
                 <img src="images/iconEmin7.png" />
                 <h3>Respaldo</h3>
                 <p>
@@ -126,7 +128,7 @@
                     ecológica y sustentable.
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInDown" data-wow-delay="-0.2s">
                 <img src="images/iconEmin6.png" />
                 <h3>Garantía</h3>
                 <p>
@@ -136,7 +138,7 @@
                     Solicitá tu pieza o accesorio en nuestra Casa Central.
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInDown" data-wow-delay="0.1s">
                 <img src="images/iconEmin5.png" />
                 <h3>Servicio Técnico</h3>
                 <p>
@@ -150,7 +152,7 @@
         </div>
     </section>
 
-    <section class="enim-k1">
+    <section class="enim-k1" id="contacto">
         <footer>
             <div class="container">
                 <div class="row">
@@ -188,8 +190,8 @@
                                 </span>
                             </div>
                             <div class="contact-item">
-                                <a href="http://www.facebook.com/loopbikesuy"><i class="fa fa-facebook"></i></a>
-                                <a href="http://www.instagram.com/loopbikes_uy"><i class="fa fa-instagram"></i></a>
+                                <a href="https://es-la.facebook.com/eMINAutoElectricoUruguay/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/eminautoelectrico/"><i class="fa fa-instagram"></i></a>
                                 <span>
                                     <h4>NOVEDADES</h4>
                                     <h5>SIGUE TODAS NUESTRAS NOTICIAS</h5>
@@ -220,6 +222,7 @@
 
     </script>
     <!--build:js js/mainJsEmin.min.js-->
+    <script src="js/wow.js"></script>
     <script src="js/mainJsEmin.min.js"></script>
     <script src="js/gmapInitMap.js"></script>
     <script src="js/main.js"></script>

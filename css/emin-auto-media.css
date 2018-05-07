@@ -1,96 +1,960 @@
+@media only screen and (max-width: 1919px) {
+    .urbanSpecs.ev5 .table p {
+        font-size: 22px;
+    }
+    .main-header.ev2 .headerText {
+        right: 229px;
+    }
+    .urban-stats p {
+        font-size: 25px;
+    }
+
+    .urbanGeneral {
+        background-position-y: 95px;
+    }
+    .urbanGeneral img {
+        top: 90px;
+        height: 129px;
+        left: -63px;
+    }
+    .urbanGeneral .item {
+        height: 346px;
+        padding-left: 80px;
+        margin: 37px;
+        width: 28%;
+    }
+    .urbanGeneral h3 {
+        left: 55px;
+    }
+    .urbanGeneral p {
+        font-size: 16px;
+        padding-top: 26px;
+    }
+        .urbanGeneral p span {
+            font-size: 17px;
+        }
+    .comparativo h1 {
+        font-size: 39px;
+    }
+    .comparativo label {
+        font-size: 18px;
+    }
+    .main-header.urban .headerText {
+        right: 111px;
+    }
+    .main-header.urban h1 {
+        font-size: 105px;
+        float: right;
+        margin-right: 16px;
+    }
+
+}
+@media only screen and (max-width: 1667px) {
+    .urbanSpecs.ev5 .table p {
+        font-size: 18px;
+    }
+    .ev5-stats img.vertical {
+        padding: 0px;
+    }
+    .emin-backup p {
+        font-size: 18px;
+    }
+    .main-header h1 {
+        font-size: 105px;
+    }
+    .main-header.ev5 h2 {
+        font-size: 42px;
+    }
+    .main-header.ev5 a {
+        font-size: 28px;
+    }
+    .urbanSpecs.ev5 {
+        background-position-y: 30px;
+        background-size: 57%;
+    }
+    .main-header.ev2 .headerText {
+        top: 21%;
+        right: 131px;
+    }
+    .urban-stats p {
+        font-size: 22px;
+    }
+    .urbanSpecs .table p {
+        font-size: 32px;
+    }
+    .urbanGeneral .item {
+        padding-left: 59px;
+        margin: 28px;
+        width: 28%;
+    }
+    .urbanGeneral img {
+        top: 104px;
+        height: 116px;
+        left: -57px;
+    }
+    .urbanGeneral h3 {
+        font-size: 25px;
+        left: 43px;
+    }
+    .comparativo h1 {
+        font-size: 30px;
+    }
+    .comparativo label {
+        font-size: 16px;
+    }
+    .emin-benefits .item p {
+        font-size: 27px;
+    }
+    .emin-benefits .item img {
+        height: 150px;
+    }
+    .main-header.urban .headerText {
+        top: 31%;
+    }
+    .main-header.urban h2 {
+        font-size: 47px;
+    }
+    .main-header.urban .headerText {
+        right: 42px;
+    }
+    .urbanSpecs .table {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .urbanSpecs.ev5 .table p {
+        font-size: 17px;
+    }
+    .urbanSpecs.ev5 {
+        background-position-y: 33px;
+        background-size: 54%;
+    }
+    .emin-backup img {
+        margin-right: 10px;
+        width: 33px;
+        vertical-align: sub;
+    }
+    .emin-backup h3 {
+        font-size: 27px;
+    }
+    .emin-backup p {
+        font-size: 16px;
+    }
+    .urbanSpecs.ev5 {
+        background-position-y: 39px;
+        background-size: 52%;
+    }
+    .urbanSpecs h2 {
+        font-size: 46px;
+    }
+    .urbanSpecs .table {
+        padding-right: 0px;
+    }
+    .urbanSpecs.ev5 .table div:last-child {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .main-header.ev2 .headerText {
+        right: 17px;
+    }
+    .urban-stats p {
+        font-size: 17px;
+    }
+    .urbanSpecs .table p {
+        font-size: 24px;
+    }
+    .urbanSpecs h2 {
+        font-size: 41px;
+        margin-left: 36px;
+    }
+    .main-header.ev2 {
+        height: 55vw;
+    }
+    .urbanGeneral h2 {
+        font-size: 34px;
+    }
+    .urbanGeneral .item {
+        margin: 34px;
+        width: 43%;
+        height: 310px;
+    }
+    .urbanGeneral h3 {
+        font-size: 25px;
+    }
+    .comparativo label {
+        font-size: 12px;
+    }
+    .comparativo .form-control {
+        font-size: 19px;
+        padding: 19px 12px;
+    }
+    .comparativo h1 {
+        font-size: 27px;
+    }
+    .emin-benefits {
+        padding: 50px 30px;
+    }
+        .emin-benefits .item p {
+            font-size: 25px;
+        }
+        .emin-benefits .item img {
+            height: 130px;
+        }
+    .main-header.urban .headerText {
+        top: 26%;
+    }
+    .urbanSpecs.urban{
+        height: 58vw;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .enim-k1 nav.navbar-default ul.navbar-right li {
         margin-right: 20px;
     }
-    .enim-k1 nav.navbar-default ul.navbar-right li a {
-        font-size: 17px;
+
+        .enim-k1 nav.navbar-default ul.navbar-right li a {
+            font-size: 17px;
+        }
+
+    .main-header h1 {
+        font-size: 89px;
     }
+
+    .main-header.ev5 h2 {
+        font-size: 37px;
+    }
+
+    .main-header.ev5 a {
+        font-size: 25px;
+        padding-right: 17px;
+    }
+
+    .urbanSpecs h2 {
+        font-size: 38px;
+    }
+
+    .urbanSpecs.ev5 {
+        background-position-y: 35px;
+        background-size: 52%;
+    }
+
+        .urbanSpecs.ev5 .table p {
+            font-size: 24px;
+        }
+
+    .emin-backup h3 {
+        font-size: 22px;
+    }
+
+    .emin-backup img {
+        margin-right: 3px;
+        width: 28px;
+    }
+
+    .emin-backup p {
+        font-size: 14px;
+    }
+    .main-header h2 {
+        font-size: 42px;
+    }
+    .urban-stats p {
+        font-size: 14px;
+        margin: 9px 0;
+    }
+    .urban-stats img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .urbanSpecs.ev2 {
+        height: 60vw;
+    }
+    .urbanSpecs h2 {
+        font-size: 33px;
+    }
+    .urbanSpecs .table div {
+        padding: 10px;
+    }
+        .urbanSpecs .table div:last-child {
+            padding-left: 10px;
+        }
+
+    .urbanSpecs .table p {
+        font-size: 20px;
+    }
+    .urbanGeneral img {
+        top: 104px;
+        height: 106px;
+        left: -54px;
+    }
+    .urbanGeneral .item {
+        margin: 27px;
+        width: 43%;
+        height: 328px;
+    }
+    .urbanGeneral p span {
+        font-size: 16px;
+    }
+    .urbanGeneral p {
+        font-size: 15px;
+        padding-top: 26px;
+    }
+    .emin-backup {
+        background-color: #24242b;
+        padding: 50px 40px;
+        overflow: hidden;
+    }
+    .enim-k1 footer div.contact-form input {
+        width: 100%;
+    }
+    .comparativo label {
+        font-size: 16px;
+    }
+    .comparativo h1 {
+        font-size: 33px;
+    }
+    .emin-benefits .item h3 {
+        font-size: 27px;
+    }
+    .emin-benefits .item p {
+        font-size: 21px;
+    }
+
+    .emin-benefits .item img {
+        height: 130px;
+        left: auto;
+    }
+    .main-header.urban h1 {
+        font-size: 85px;
+        float: right;
+        margin-right: 9px;
+        margin-bottom: 0;
+    }
+    .main-header.urban h2 {
+        font-size: 34px;
+    }
+
 }
 
 
-/* Medium Devices, Desktops */
+    /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
     .enim-k1 nav.navbar-default ul.navbar-right li {
         margin-right: 17px;
     }
-    .enim-k1 nav.navbar-default ul.navbar-right li a {
-        font-size: 13px;
-    }
 
-    
-}
+        .enim-k1 nav.navbar-default ul.navbar-right li a {
+            font-size: 13px;
+        }
 
-
-/* Small Devices, Tablets */
-
-@media only screen and (max-width: 768px) {
-    .enim-k1 nav.navbar-default {
-        height: 80px;
-    }
-
-    .navbar-default .navbar-toggle {
-        color: #f26367;
-        font-size: 30px;
-        padding: 3px 10px;
-        background: none;
-        border: none;
-    }
-
-    .enim-k1 nav.navbar-default a.navbar-brand {
-        margin-left: 20px;
-    }
-
-    .navbar-default .navbar-toggle.collapsed {
-        font-size: 30px;
-        padding: 3px 10px;
-        background: none;
-        border: none;
-        color: #000;
-    }
-
-    .navbar-default .navbar-toggle:hover {
-        background: none;
-        color: #f26367;
+    .enim-k1 nav.navbar-default a.navbar-brand img {
+        width: 200px;
     }
 
     .enim-k1 nav.navbar-default ul.navbar-right {
-        background: #f8f8f8;
+        margin-top: 27px;
+    }
+
+    .main-header h1 {
+        font-size: 77px;
+    }
+
+    .main-header.ev5 .headerText {
+        width: 50%;
+    }
+
+    .main-header.ev5 h2 {
+        font-size: 28px;
+    }
+
+    .urbanSpecs h2 {
+        font-size: 33px;
+    }
+
+    .urbanSpecs.ev5 {
+        background-position-y: 42px;
+        background-size: 47%;
+    }
+
+    .urbanSpecs .table {
+        padding-right: 0px;
+        padding: 0;
+        margin: 0;
         border: none;
-        padding: 10px !important;
-        padding-left: 25px !important;
-        margin-top: 0px !important;
     }
 
-    .enim-k1 nav.navbar-default div.navbar-collapse {
-        border: 0px;
+        .urbanSpecs .table div:first-child {
+            border-right: 1px solid #5b5b60;
+            border: 1px solid #5b5b60;
+            border-radius: 15px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0;
+        }
+
+    .urbanSpecs.ev5 .table div:last-child {
+        padding-left: 15px;
+        padding-right: 0;
+        border: 1px solid #5b5b60;
+        border-radius: 15px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-left: none;
     }
 
-    .enim-k1 nav.navbar-default div.navbar-collapse {
-        position: absolute;
-        width: 100%;
-        left: 15px;
-        z-index: 1000000000000000000;
+    .urbanSpecs.ev5 .table p {
+        font-size: 22px;
     }
-    .menu-mobile {
-        width: 100%;
+
+    .urbanSpecs .table div {
+        height: 535px;
     }
-    .enim-k1 nav.navbar-default ul.navbar-right li a {
-        font-size: 16px;
-        font-weight: 600;
+
+    .emin-backup h3 {
+        font-size: 30px;
+    }
+
+    .emin-backup img {
+        width: 37px;
+    }
+
+    .emin-backup p {
+        font-size: 19px;
+    }
+
+    .ev5-stats img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .ev5-stats {
+        padding: 0px;
+    }
+
+    .urbanSpecs.ev5 .row {
+        margin-bottom: 20px;
+    }
+
+    .main-header.ev2 .headerText {
+        right: 0px;
+        top: 15%;
+    }
+
+    .main-header h2 {
+        font-size: 37px;
+    }
+
+    .urban-stats p {
+        font-size: 28px;
+    }
+
+    .urbanSpecs h2 {
+        font-size: 28px;
+        margin-left: 0;
+    }
+
+    .urbanSpecs.ev2 .table div:last-child {
+        padding-left: 15px;
+        padding-right: 0;
+        border: 1px solid #5b5b60;
+        border-radius: 15px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-left: none;
+    }
+
+    .urbanSpecs .table p {
+        font-size: 17px;
+    }
+
+    .urbanSpecs.ev2 .table div {
+        height: 332px;
+    }
+
+    .urbanGeneral .item {
+        margin: 15px;
+        width: 100%;
+        height: 206px;
+    }
+
+    .urbanGeneral img {
+        top: 47px;
+        height: 106px;
+        left: -54px;
+    }
+
+    .main-header.ev2 {
+        height: 65vw;
+    }
+
+    .main-header.urban .headerText {
+        top: 21%;
+    }
+
+    .main-header.urban h2 {
+        font-size: 30px;
+    }
+
+    .main-header.urban h1 {
+        font-size: 70px;
+    }
+
+    .urbanSpecs.urban .table div:last-child {
+        padding-left: 15px;
+        padding-right: 0;
+        border: 1px solid #5b5b60;
+        border-radius: 15px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        border-left: none;
+    }
+
+    .urbanSpecs.urban .table div {
+        height: 320px;
+        padding: 3px;
+    }
+
+    .urbanSpecs.urban h2 {
+        margin-top: 20px;
     }
 }
 
 
-/* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */
+
+    @media only screen and (max-width: 768px) {
+        .enim-k1 nav.navbar-default {
+            height: 80px;
+        }
+
+        .navbar-default .navbar-toggle {
+            color: #f26367;
+            font-size: 30px;
+            padding: 3px 10px;
+            background: none;
+            border: none;
+        }
+
+        .enim-k1 nav.navbar-default a.navbar-brand {
+            margin-left: 20px;
+        }
+
+        .navbar-default .navbar-toggle.collapsed {
+            font-size: 30px;
+            padding: 3px 10px;
+            background: none;
+            border: none;
+            color: #000;
+        }
+
+        .navbar-default .navbar-toggle:hover {
+            background: none;
+            color: #f26367;
+        }
+
+        .enim-k1 nav.navbar-default ul.navbar-right {
+            background: #f8f8f8;
+            border: none;
+            padding: 10px !important;
+            padding-left: 25px !important;
+            margin-top: 0px !important;
+        }
+
+        .enim-k1 nav.navbar-default div.navbar-collapse {
+            border: 0px;
+        }
+
+        .enim-k1 nav.navbar-default div.navbar-collapse {
+            position: absolute;
+            width: 100%;
+            left: 15px;
+            z-index: 9999;
+        }
+
+        .menu-mobile {
+            width: 100%;
+        }
+
+        .enim-k1 nav.navbar-default ul.navbar-right li a {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .enim-k1 nav.navbar-default a.navbar-brand {
+            margin-left: 20px;
+            margin-top: 0;
+        }
+            .enim-k1 nav.navbar-default a.navbar-brand img {
+                width: 133px;
+            }
+        .main-header.ev5 {
+            background-image: url(../images/ev5HaderMobile.png);
+            height: 79vw;
+        }
+            .main-header.ev5 .headerText {
+                top: 8%;
+                left: 25px;
+            }
+        .main-header h1 {
+            font-size: 63px;
+        }
+        .main-header.ev5 h2 {
+            font-size: 26px;
+        }
+        .main-header.ev5 a {
+            font-size: 21px;
+            padding-right: 17px;
+        }
+        .urbanSpecs.ev5 {
+            background-position-y: 76px;
+            background-size: 67%;
+        }
+        .container {
+             width: auto; 
+        }
+        .urbanSpecs h2 {
+            margin-left: 0;
+            text-align: center;
+        }
+        .urbanSpecs.ev5 .table p {
+            font-size: 17px;
+        }
+        .urbanSpecs .table:first-child div:first-child {
+            width:60%;
+        }
+        .urbanSpecs .table:first-child div:last-child {
+            width: 40%;
+        }
+        .urbanSpecs .table div {
+            height: 445px;
+        }
+        .emin-backup p {
+            font-size: 16px;
+        }
+        .enim-k1 nav.navbar-default ul.navbar-right {
+            background: #24242b;
+        }
+            .enim-k1 nav.navbar-default ul.navbar-right li.active a {
+                display: inline-block;
+            }
+        .navbar-nav > li > .dropdown-menu {
+            left: 66px !important;
+            top: 3px;
+        }
+        .main-header.ev2 .headerText {
+            right: 0px;
+            top: 8%;
+        }
+        .main-header h1 {
+            font-size: 59px;
+        }
+        .main-header h2 {
+            font-size: 24px;
+        }
+        .urban-stats p {
+            font-size: 24px;
+        }
+        .urbanSpecs.ev2 {
+            height: 69vw;
+        }
+        .urbanSpecs.ev2 h2 {
+            margin-top: 17px;
+            font-size: 19px;
+            margin-bottom: 10px;
+        }
+        .urbanSpecs.ev2 .container {
+            padding-left: 0px;
+        }
+            .urbanSpecs.ev2 .table div {
+                padding: 3px;
+            }
+
+        .urbanSpecs .table p {
+            font-size: 17px;
+            line-height: 21px;
+        }
+        .urbanSpecs.ev2 .table div {
+            height: 278px;
+        }
+        .urbanGeneral h2 {
+            font-size: 26px;
+            margin-bottom: 80px;
+        }
+        .urbanGeneral .item {
+            margin: 38px;
+            width: 90%;
+            height: 288px;
+        }
+        .urbanGeneral img {
+            top: 90px;
+            height: 113px;
+            left: -57px;
+        }
+        .emin-benefits .item {
+            display: unset;
+            padding: 0;
+        }
+        .emin-benefits {
+            padding: 50px 0px;
+        }
+            .emin-benefits .item img {
+                height: 190px;
+                position: relative;
+                display: block;
+                margin-top: 20px;
+            }
+
+        .main-header.urban {
+            height: 87vw;
+            background-image: url(../images/urbanspec4Mobile.png);
+        }
+            .main-header.urban .headerText {
+                top: 9%;
+                right: 0;
+            }
+            .main-header.urban h1 {
+                font-size: 60px;
+            }
+            .main-header.urban h2 {
+                font-size: 23px;
+            }
+        .urbanSpecs.urban {
+            height: 75vw;
+        }
+            .urbanSpecs.urban h2 {
+                margin-top: 14px;
+                font-size: 19px;
+            }
+        .urbanSpecs.urban .container{
+            padding: 0;
+        }
+            .urbanSpecs.urban .container .col-xs-5 {
+                width: 43%;
+            }
+            .urbanSpecs.urban .table div:last-child {
+                padding-left: 3px;
+            }
+        .urbanSpecs.urban .table p {
+            font-size: 13px;
+        }
+            .urbanSpecs.urban .table div {
+                height: auto;
+            }
+    }
+
+
+    /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
-    
+    .main-header h1 {
+        font-size: 42px;
+    }
+
+    .main-header.ev5 h2 {
+        font-size: 19px;
+    }
+
+    .main-header.ev5 .headerText {
+        top: 7%;
+        left: 11px;
+        width: 80%;
+    }
+
+    .main-header.ev5 a {
+        font-size: 19px;
+        padding-right: 10px;
+    }
+
+        .main-header.ev5 a i {
+            margin-left: 5px;
+            font-size: 13px;
+        }
+
+    .urbanSpecs .table div {
+        padding: 10px;
+    }
+
+    .urbanSpecs.ev5 .table p {
+        font-size: 14px;
+    }
+
+    .urbanSpecs.ev5 div.col-md-12.col-lg-6 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .urbanSpecs .table div {
+        padding: 1px;
+        padding-top: 11px;
+        height: 325px;
+    }
+
+    .urbanSpecs.ev5 .table .space {
+        display: unset;
+    }
+
+    .urbanSpecs .table.table-mobile div {
+        height: 358px;
+    }
+
+    .emin-backup.ev5 {
+        padding: 0;
+    }
+
+    .emin-backup h3 {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .emin-backup img {
+        width: 48px;
+    }
+
+    .urbanSpecs .table div {
+        padding: 1px;
+        padding-top: 11px;
+        height: 341px;
+    }
+
+    .urbanGeneral h3 {
+        font-size: 19px;
+        left: 16px;
+        padding: 5px;
+        top: -36px;
+    }
+
+    .urbanGeneral img {
+        top: 108px;
+        height: 74px;
+        left: -37px;
+        padding: 5px;
+    }
+    .urbanGeneral .item {
+        margin: 38px;
+        width: 86%;
+        height: auto;
+        padding-left: 38px;
+        padding-right: 3px;
+    }
+    .urbanGeneral p {
+        font-size: 14px;
+        padding-top: 11px;
+    }
+        .urbanGeneral p span {
+            font-size: 14px;
+        }
+    .comparativo h1 {
+        font-size: 24px;
+    }
+    .comparativo label {
+        font-size: 14px;
+    }
+    .comparativo .form-control {
+        font-size: 19px;
+        padding: 16px 11px;
+        margin-bottom: 5px;
+    }
+    .urbanSpecs.ev2 {
+        height: auto;
+        background: #24242b;
+        padding-bottom: 20px;
+    }
+
+        .urbanSpecs.ev2 div.col-xs-7.col-sm-5 {
+            width: 100%;
+        }
+
+    .urbanSpecs .table p {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .urbanSpecs.ev2 .table div {
+        height: auto;
+    }
+    .urbanSpecs.ev2 h2 {
+        margin-top: 17px;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .urbanGeneral h2 {
+        font-size: 23px;
+        margin-bottom: 38px;
+    }
+
+    .main-header.ev2 .headerText {
+        right: 0px;
+        top: 7%;
+    }
+    .main-header h2 {
+        font-size: 16px;
+    }
+    .main-header.ev2 {
+        height: 82vw;
+        background-image: url(../images/ev2HeaderMobile.png);
+    }
+    .urban-stats {
+        padding: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .urban-stats .comtainer{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+        .urban-stats p {
+            font-size: 17px;
+        }
+
+    .emin-backup {
+        padding: 10px;
+    }
+    .emin-benefits .item h3 {
+        font-size: 24px;
+    }
+    .emin-benefits .item img {
+        height: 140px;
+    }
+    .emin-benefits .item p {
+        font-size: 16px;
+    }
+    .main-header.urban .headerText {
+        top: 7%;
+        right: 0;
+    }
+    .main-header.urban h1 {
+        font-size: 46px;
+        margin-right: 4px;
+    }
+    .main-header.urban h2 {
+        font-size: 17px;
+    }
+    .urbanSpecs.urban {
+        height: auto;
+        background: #24242b;
+    }
+        .urbanSpecs.urban .container .col-xs-5 {
+            width: 100%;
+        }
+        .urbanSpecs.urban h2 {
+            font-size: 26px;
+        }
+        .urbanSpecs.urban .table p {
+            font-size: 21px;
+        }
+    .navbar-nav > li > .dropdown-menu {
+        left: 70px !important;
+        top: 3px;
+    }
+
+
 }
 
 
-/* Custom, iPhone Retina */
+    /* Custom, iPhone Retina */
 
-@media only screen and (max-width: 320px) {
-    
-}
+    @media only screen and (max-width: 320px) {
+    }

@@ -117,6 +117,7 @@ ul.topnav li a:hover {
         .enim-k1 nav.navbar-default ul.navbar-right li {
             margin-right: 38px;
             position: relative;
+            visibility: hidden;
         }
 
             .enim-k1 nav.navbar-default ul.navbar-right li a {
@@ -139,9 +140,13 @@ ul.topnav li a:hover {
                     color: #00c9de;
                 }
 
-            .enim-k1 nav.navbar-default ul.navbar-right li.active a {
-                background: none;
-            }
+.enim-k1 nav.navbar-default ul.navbar-right li.active a {
+    background: none;
+}
+
+.enim-k1 nav.navbar-default ul.navbar-right li ul.dropdown-menu li.active a  {
+    color: #00C9DE;
+}
 
                 .enim-k1 nav.navbar-default ul.navbar-right li.active a:after {
                     content: "";
@@ -150,8 +155,12 @@ ul.topnav li a:hover {
                     height: 6px;
                     background: #00C9DE;
                     margin-top: 4px;
-                    visibility: visible;
+                    visibility: hidden;
                 }
+
+.enim-k1 nav.navbar-default ul.navbar-right  li.active.animated a:after {
+    visibility: visible;
+}
 
             .enim-k1 nav.navbar-default ul.navbar-right li a:after {
                 content: "";
@@ -180,9 +189,14 @@ ul.topnav li a:hover {
 img.car-home {
     width: 100%;
 }
+
+.main-header img {
+    width: 100%;
+}
+
 .main-header.urban {
     background-image: url(../images/urban.png);
-    height: 1287px;
+    height: 52vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,17 +210,22 @@ img.car-home {
 }
 .main-header.ev5 {
     background-image: url(../images/ev5Hader.png);
-    height: 814px;
+    height: 50vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-    .main-header .headerText {
-        position: absolute;
-        top: 35%;
-        right: 550px;
-    }
-    .main-header h1 {
+.main-header .headerText {
+    position: absolute;
+    top: 35%;
+    right: 550px;
+}
+.main-header.urban .headerText {
+    position: absolute;
+    top: 50%;
+    right: 201px;
+}
+.main-header h1 {
         font-family: 'gotham ultra';
         font-size: 134px;
         color: #eeedd8;
@@ -235,17 +254,19 @@ img.car-home {
     font-family: 'gotham';
     font-size: 34px;
     color: #eeedd8;
-    background: #00c9de;
+    background: #48c2c5;
     text-decoration: none;
     padding-left: 15px;
     padding-right: 45px;
+    padding-bottom: 5px;
     border-radius: 9px;
     opacity: 0.6;
 }
     .main-header.ev5 a i {
         margin-left: 49px;
-        font-size: 40px;
+        font-size: 25px;
         vertical-align: middle;
+        color: #eeedd8;
     }
 
 .main-header.ev5 h2 {
@@ -290,6 +311,7 @@ img.car-home {
 .emin-backup {
     background-color: #24242b;
     padding: 80px 40px;
+    overflow: hidden;
 }
     .emin-backup img {
         display: inline-block;
@@ -490,7 +512,7 @@ img.car-home {
     .urbanGeneral .item {
         border: 1px solid #00c9de;
         border-radius: 15px;
-        height: 330px;
+        height: 354px;
         padding-left: 80px;
         margin: 50px;
         width: 27%;
@@ -866,8 +888,60 @@ img.car-home {
         top: 0
     }
 
+.ev5-stats {
+    padding: 40px 40px 10px 40px;
+}
+.ev5-stats .container{
+    width: 98%;
+    display: flex
+}
+    .ev5-stats .leftImg {
+        position: absolute;
+        bottom: 0;
+    }
 
+    .ev5-stats .rightImg {
+        position: absolute;
+        top: 0;
+    }
 
+    .ev5-stats img {
+        width: 100%;
+        padding: 0px;
+    }
+
+        .ev5-stats img.vertical {
+            padding: 0px;
+        }
+
+.urbanSpecs.ev5 {
+    background-image: url(../images/ev5bkg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: 21px;
+    background-size: 60%;
+    height: auto
+}
+
+    .urbanSpecs.ev5 .table p {
+        font-size: 26px;
+    }
+
+    .urbanSpecs.ev5 .table div:last-child {
+        padding-left: 39px;
+    }
+
+.emin-backup.ev5 {
+    padding: 30px 40px;
+    overflow: hidden;
+}
+
+.menu-mobile .navbar-header button i {
+    color: #00c9de;
+}
+.urbanSpecs.ev5 .table .space{
+    display: none;
+}
 
 
 
