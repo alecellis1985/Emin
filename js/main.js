@@ -27,7 +27,7 @@
 			$(this).find('.text').stop(true, true).delay(200).fadeOut();
 		}
 	);
-	$('.dropdown.display a').trigger('mouseover');
+	$('ul.dropdown-menu').css('display', 'block!important');
 
 	$('.dropdown.display a').on('click', function (event) {
 		$('.dropdown.display').css('height', '50px');
