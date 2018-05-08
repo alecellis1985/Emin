@@ -45,7 +45,6 @@
     .main-header.urban h1 {
         font-size: 105px;
         float: right;
-        margin-right: 16px;
     }
 
 }
@@ -331,7 +330,6 @@
     .main-header.urban h1 {
         font-size: 85px;
         float: right;
-        margin-right: 9px;
         margin-bottom: 0;
     }
     .main-header.urban h2 {
@@ -637,7 +635,7 @@
         .enim-k1 nav.navbar-default ul.navbar-right {
             background: #24242b;
         }
-            .enim-k1 nav.navbar-default ul.navbar-right li.active a {
+            .enim-k1 nav.navbar-default ul.navbar-right li.active.fadeInRight a {
                 display: inline-block;
             }
         .navbar-nav > li > .dropdown-menu {
@@ -713,7 +711,7 @@
         }
             .main-header.urban .headerText {
                 top: 9%;
-                right: 0;
+                right: 8px;
             }
             .main-header.urban h1 {
                 font-size: 60px;
@@ -758,7 +756,7 @@
     }
 
     .main-header.ev5 .headerText {
-        top: 7%;
+        top: 60px;
         left: 11px;
         width: 80%;
     }
@@ -885,8 +883,8 @@
     }
 
     .main-header.ev2 .headerText {
-        right: 0px;
-        top: 7%;
+        right: 6px;
+        top: 60px;
     }
     .main-header h2 {
         font-size: 16px;
@@ -922,12 +920,11 @@
         font-size: 16px;
     }
     .main-header.urban .headerText {
-        top: 7%;
-        right: 0;
+        right: 6px;
+        top: 60px;
     }
     .main-header.urban h1 {
         font-size: 46px;
-        margin-right: 4px;
     }
     .main-header.urban h2 {
         font-size: 17px;

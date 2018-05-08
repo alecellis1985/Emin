@@ -385,14 +385,15 @@
                     </div>
                     <div class="col-xs-12 col-md-4">
                         <div class="contact-form" id="form-link">
-                            <form>
+                            <form id="contacto">
                                 <h3>CONTACTO</h3>
-                                <input type="text" class="form-control" placeholder="Nombre">
-                                <input type="email" class="form-control" placeholder="Email">
-                                <input type="text" class="form-control" placeholder="Telefono">
-                                <textarea class="form-control" placeholder="Escriba su mensaje aquí..." rows="5"></textarea>
-                                <input type="submit" class="btn btn-default" value="ENVIAR MENSAJE">
+                                <input type="text" class="form-control" placeholder="Nombre" id="userName">
+                                <input type="email" class="form-control" placeholder="Email" id="userEmail">
+                                <input type="text" class="form-control" placeholder="Telefono" id="tel">
+                                <textarea class="form-control" placeholder="Escriba su mensaje aquí..." rows="5" id="userMessage"></textarea>
+                                <input type="submit" class="btn btn-default" value="ENVIAR MENSAJE" id="submit">
                             </form>
+                            <div id="resp" style="width: 100%;padding: 17px;font-size: 16px;color: #f26367"></div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-4">

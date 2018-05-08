@@ -147,7 +147,7 @@ ul.topnav li a:hover {
                     color: #00c9de;
                 }
 
-.enim-k1 nav.navbar-default ul.navbar-right li.active a {
+.enim-k1 nav.navbar-default ul.navbar-right li.active.fadeInRight a {
     background: none;
 }
 
@@ -229,7 +229,7 @@ img.car-home {
 }
 .main-header.urban .headerText {
     position: absolute;
-    top: 50%;
+    top: 38%;
     right: 201px;
 }
 .main-header h1 {
