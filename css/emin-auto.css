@@ -19,6 +19,16 @@ ul.dropdown-menu {
     box-shadow: none;
 }
 
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#owl-demo .owl-dots {
+    display: none
+}
+
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
     color: #F8F8F8;
     background: none;

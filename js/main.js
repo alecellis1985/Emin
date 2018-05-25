@@ -1,6 +1,5 @@
 (function () {
-	new WOW().init();
-
+    new WOW().init();
 	$('.dropdown').hover(
 		function () {
 			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
@@ -39,6 +38,5 @@
 		$('.dropdown').css('height', '50px');
 		event.stopPropagation();
 		$('.dropdown.display a').trigger('mouseover');
-	})
-
+    })
 })();

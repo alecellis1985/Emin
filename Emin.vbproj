@@ -6021,6 +6021,7 @@
     <Content Include="css\jquery-ui.css" />
     <Content Include="css\loop.css" />
     <Content Include="css\media.css" />
+    <Content Include="css\owl.carousel.css" />
     <Content Include="css\owl.carousel.min.css" />
     <Content Include="css\owl.theme.default.min.css" />
     <Content Include="css\plugins.css" />
@@ -15694,6 +15695,7 @@
     <Content Include="vendor\jquery.appear.js" />
     <Content Include="vendor\jquery.js" />
     <Content Include="vendor\jquery.validate.js" />
+    <Content Include="vendor\owl.carousel.js" />
     <Content Include="vendor\respond.js" />
   </ItemGroup>
   <ItemGroup>
