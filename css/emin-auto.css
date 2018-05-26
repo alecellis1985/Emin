@@ -25,7 +25,7 @@ ul.dropdown-menu {
     height: auto;
 }
 
-#owl-demo .owl-dots {
+#owl-demoowl-dots {
     display: none
 }
 
@@ -140,6 +140,7 @@ ul.topnav li a:hover {
             .enim-k1 nav.navbar-default ul.navbar-right li a {
                 color: #F8F8F8;
                 font-size: 20px;
+                background: none;
                 font-family: Gotham;
                 padding-left: 0px;
                 padding-right: 0px;
@@ -212,21 +213,21 @@ img.car-home {
 }
 
 .main-header.urban {
-    background-image: url(../images/urban.png);
+    background-image: url(../images/urban.jpg);
     height: 52vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .main-header.ev2 {
-    background-image: url(../images/ev2Header.png);
+    background-image: url(../images/ev2Header.jpg);
     height: 762px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .main-header.ev5 {
-    background-image: url(../images/ev5Hader.png);
+    background-image: url(../images/ev5Hader.jpg);
     height: 50vw;
     background-size: cover;
     background-position: center;
