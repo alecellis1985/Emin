@@ -10,6 +10,10 @@
     font-family: 'gotham ultra';
     src: url('../fonts/gotham ultra.otf') format('opentype');
 }
+@font-face {
+    font-family: 'gotham';
+    src: url('../fonts/gotham-bold.otf') format('opentype');
+}
 ul.dropdown-menu {
     margin-top: 9px !important;
     top: 38px;
@@ -42,6 +46,16 @@ ul.dropdown-menu {
 }
 .navbar-default .navbar-nav > .active > a:hover {
     color: #F8F8F8;
+}
+
+.navbar-nav .loop {
+    position: relative;
+    width: 134px;
+    margin-top: -25px;
+}
+.navbar-nav a.loopLogo:after {
+    height: 0px !important;
+    background: #24242b !important;
 }
 
 ul.topnav {

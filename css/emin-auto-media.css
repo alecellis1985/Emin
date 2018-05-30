@@ -49,6 +49,11 @@
 
 }
 @media only screen and (max-width: 1667px) {
+    .navbar-nav .loop {
+        width: 130px;
+        margin-top: -26px;
+    }
+
     .urbanSpecs.ev5 .table p {
         font-size: 18px;
     }
@@ -124,6 +129,10 @@
 
 @media only screen and (max-width: 1440px) {
 
+    .navbar-nav .loop {
+        width: 100px;
+        margin-top: -15px;
+    }
     .urbanSpecs.ev5 .table p {
         font-size: 17px;
     }
@@ -218,6 +227,11 @@
         .enim-k1 nav.navbar-default ul.navbar-right li a {
             font-size: 17px;
         }
+
+    .navbar-nav .loop {
+        width: 75px;
+        margin-top: -11px;
+    }
 
     .main-header h1 {
         font-size: 89px;
@@ -356,6 +370,11 @@
 
     .enim-k1 nav.navbar-default ul.navbar-right {
         margin-top: 27px;
+    }
+
+    .navbar-nav .loop {
+        width: 65px;
+        margin-top: -12px;
     }
 
     .main-header h1 {
@@ -573,9 +592,15 @@
             z-index: 9999;
         }
 
+        .navbar-nav .loop {
+            width: 90px;
+            margin-top: 0px;
+        }
+
         .menu-mobile {
             width: 100%;
         }
+
 
         .enim-k1 nav.navbar-default ul.navbar-right li a {
             font-size: 16px;
